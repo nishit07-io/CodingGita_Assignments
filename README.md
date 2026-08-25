@@ -1,2 +1,2 @@
 # CodingGita_Assignments
- I created this repo for Git assignment. 
+ I created this repo for CodingGita assignment. 
