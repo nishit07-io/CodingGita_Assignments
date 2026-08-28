@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Iframe Permissions Demo</title>
+</head>
+<body>
+		<h1>Iframe Permissions Demo</h1>
+		<iframe
+			src="https://example.com/"
+			title="Example public webpage"
+			loading="lazy"
+			referrerpolicy="strict-origin-when-cross-origin"></iframe>
+		<iframe
+			src="https://example.com/"
+			title="Motion experience with fullscreen support"
+			allow="fullscreen; gyroscope"
+			allowfullscreen
+			loading="lazy"
+			referrerpolicy="strict-origin-when-cross-origin"></iframe>
+		<iframe
+			src="https://example.com/"
+			title="USB device application"
+			allow="usb"
+			loading="lazy"
+			referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</body>
+</html>
