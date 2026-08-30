@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Attribute Overrides</title>
+</head>
+<body>
+  <form action="https://example.com/default-action" method="post" target="_self">
+    <h2>Form Attribute Override Demo</h2>
+
+    <label for="name">Full Name</label>
+    <input id="name" name="name" type="text" required />
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required />
+
+    <label for="topic">Topic</label>
+    <select id="topic" name="topic">
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+    </select>
+
+    <div class="buttons">
+      <button type="submit">Default Submit</button>
+      <button type="submit" formaction="https://example.com/override-action">Override Action</button>
+      <button type="submit" formmethod="get">Override Method</button>
+      <button type="submit" formnovalidate>Override No Validate</button>
+      <button type="submit" formtarget="_blank">Override Target</button>
+    </div>
+
+    <small>Required fields are enabled so the <strong>formnovalidate</strong> button shows how validation can be bypassed.</small>
+  </form>
+</body>
+</html>

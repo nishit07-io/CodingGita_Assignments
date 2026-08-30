@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Method Example</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+
+    <button type="submit">Default Post</button>
+    <button type="submit" formmethod="get">Submit as GET</button>
+  </form>
+</body>
+</html>

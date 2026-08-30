@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Application Form</title>
+</head>
+<body>
+  <form method="post" enctype="multipart/form-data">
+    <div>
+      <label for="resume">Resume (.pdf, .docx):</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.docx" required />
+    </div>
+
+    <div>
+      <label for="photo">Profile Photo:</label>
+      <input type="file" id="photo" name="photo" accept="image/*" />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
