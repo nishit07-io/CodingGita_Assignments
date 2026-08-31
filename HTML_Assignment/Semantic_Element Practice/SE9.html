@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Elements Homepage</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#updates">Updates</a></li>
+          <li><a href="#insights">Insights</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="content">
+        <section id="updates">
+          <article>
+            <header>
+              <h2>Designing for Better Reading</h2>
+              <p>Published on <time datetime="2026-08-31">August 31, 2026</time></p>
+            </header>
+            <p>
+              A clean layout and strong structure can make even complex ideas easier to understand.
+              <mark>Readable content</mark> helps users focus and keeps the message clear.
+            </p>
+            <figure>
+              <img src="https://via.placeholder.com/700x350?text=Workspace+Design" alt="Workspace design example" />
+              <figcaption>Creative workspace setup for modern digital teams.</figcaption>
+            </figure>
+            <footer>
+              <p>By Maya Lee</p>
+            </footer>
+          </article>
+        </section>
+
+        <section id="insights">
+          <article>
+            <header>
+              <h2>Planning a Simple Content Strategy</h2>
+              <p>Updated <time datetime="2026-08-25">August 25, 2026</time></p>
+            </header>
+            <p>
+              Good planning starts with knowing your audience, organizing the message,
+              and choosing the right structure for each page.
+            </p>
+            <details>
+              <summary>Show planning checklist</summary>
+              <ul>
+                <li>Define the audience</li>
+                <li>Map key ideas</li>
+                <li>Use semantic structure</li>
+                <li>Review accessibility</li>
+              </ul>
+            </details>
+            <footer>
+              <p>Strategy notes • 5 min read</p>
+            </footer>
+          </article>
+        </section>
+      </div>
+
+      <aside class="sidebar" aria-label="Related posts">
+        <h3>Related Reading</h3>
+        <p>Explore more ideas about web design, content planning, and productivity.</p>
+        <ul>
+          <li>Accessibility Basics</li>
+          <li>Creative Writing Tips</li>
+          <li>Brand Content Ideas</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Semantic Studio</p>
+    </footer>
+  </body>
+</html>
