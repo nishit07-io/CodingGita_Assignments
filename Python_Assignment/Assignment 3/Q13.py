@@ -1,0 +1,7 @@
+print(chr(65))
+print(chr(66))
+print(chr(97))
+print(chr(98))
+print(chr(48))
+print(chr(57))
+print(chr(64))

@@ -1,0 +1,11 @@
+print("A" < "B")
+print("a" < "b")
+print("A" < "a")
+print("0" < "9")
+
+print(ord("A"))
+print(ord("B"))
+print(ord("a"))
+print(ord("b"))
+print(ord("0"))
+print(ord("9"))
