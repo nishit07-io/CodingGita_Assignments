@@ -1,0 +1,8 @@
+a = int(input('G1 number 1: '))
+b = int(input('G1 number 2: '))
+c = int(input('G1 number 3: '))
+d = int(input('G2 number 1: '))
+e = int(input('G2 number 2: '))
+f = int(input('G2 number 3: '))
+print('Group sums:', a + b + c, d + e + f)
+print('Position sums:', a + d, b + e, c + f)
